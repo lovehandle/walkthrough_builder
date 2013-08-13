@@ -1,0 +1,26 @@
+<div id="tutorial-step-<%= step.cid %>" class="step">
+
+  <div id="<%= step.cid %>-content">
+    <div class="control-group">
+      <label for="title">Title</label>
+      <div class="controls">
+        <input type="text" id="tutorial-step-<%= step.cid %>-title" name="title" value="<%= step.get('title') %>"/>
+      </div>
+    </div>
+
+    <div class="control-group">
+      <label for="body">Body</label>
+      <div class="controls">
+        <textarea id="tutorial-step-<%= step.cid %>-body" name="body"><%= step.get('body') %></textarea>
+      </div>
+    </div>
+
+    <div class="control-group">
+      <label for="selector">CSS Selector</label>
+      <div class="controls">
+        <input type="text" id="tutorial-step-<%= step.cid %>-selector" name="selector" value="<%= step.get('selector') %>"/>
+      </div>
+    </div>
+  </div>
+
+</li>

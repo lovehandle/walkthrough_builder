@@ -1,0 +1,42 @@
+body.tutorials {
+
+  #sidebar {
+    background-color: #34495E;
+    color: #fff;
+    position: absolute;
+    height: 800px;
+    width: 250px;
+    overflow: auto;
+    left: 0;
+    top: 0;
+    padding: 20px;
+
+    a {
+      color: #fff; 
+      text-decoration: none;
+    }
+  }
+
+  #tutorial-form {
+    margin-top: 20px;
+    margin-left: 5px;
+  }
+
+  #tutorial-steps-form {
+    margin-left: 5px;
+    .step {
+      margin-top: 20px; 
+    }
+  }
+
+  #url-preview {
+    width: 1050px;
+    position: absolute;
+    top: 0;
+    left: 290px;
+    border: 0;
+    height: 800px;
+    overflow: auto;
+  }
+
+}
